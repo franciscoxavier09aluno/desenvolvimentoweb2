@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: navy;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: navy;
+  color: white;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: fit-content;
+}
+
+.erro {
+  color: red;
+}
